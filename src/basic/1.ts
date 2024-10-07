@@ -8,4 +8,6 @@ const age:number = 50;
 const username:string = 'Max';
 const toggle:boolean = true;
 const empty:null = null;
-const callback = (a:number) => { return 100 + a };
+const callback = (a: number) => { return 100 + a };
+
+console.log('lesson 1 - callback-', callback(10));
